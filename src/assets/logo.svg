@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="473" height="212" viewBox="0 0 473 212">
+  <defs>
+    <clipPath id="clip-logo">
+      <rect width="473" height="212"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <rect width="473" height="212" fill="#fff"/>
+    <text id="HF" transform="translate(237 166)" fill="#1f005e" font-size="172" font-family="MarsRegular, Mars"><tspan x="-169.076" y="0">HF</tspan></text>
+  </g>
+</svg>
