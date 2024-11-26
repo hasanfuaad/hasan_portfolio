@@ -1,12 +1,15 @@
 {
+  "homepage": "https://hasanfuaad02.github.io/hasan_portfolio",
   "name": "-protfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
+    "build":"vite build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable",
     "preview": "vite preview"
   },
   "dependencies": {
