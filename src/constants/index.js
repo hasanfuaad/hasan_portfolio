@@ -4,21 +4,16 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
+  cplusplus,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  rts,
+  gdsc,
+  ycit,
   carrent,
   jobit,
   tripguide,
@@ -61,6 +56,10 @@ const services = [
 
 const technologies = [
   {
+    name: "CPLUSPLUS",
+    icon: cplusplus,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -72,18 +71,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -93,10 +86,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -104,69 +93,44 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Developer & Software Tester",
+    company_name: "RTS Company, Tharwat for Financial Services & Investment Group",
+    icon: rts,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2024 - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Conducted rigorous integration testing on system APIs, identifying and resolving issues to ensure robust functionality and performance.",
+      "Developed APIs using ASP.NET, and using Azure DevOps .And collaborated closely with crossfunctional teams to optimize API performance and enhance overall system reliability",
+      "Designed and implemented user interfaces using Flutter, contributing to a seamless and responsive userexperience across multiple platforms.",
+      ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Team Leader & Speaker",
+    company_name: "Google Developers Student Club - Saba University",
+    icon: gdsc,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with experts from diverse Middle Eastern countries to design and implement several educational courses, both locally and internationally.",
+      "Organized a series of events and activities focusing on the forefront of technological advancements,creating forums for knowledge exchange and exploration of the latest trends.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "IT Intern – & Administration.",
+    company_name: "Yemen Center Information Technology in Higher Education",
+    icon: ycit,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: " 2020 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my stint as a trainee at the Information Technology Center in Higher Education, I fine-tuned both administrative and programming skills. This hands-on experience allowed me to actively participate in various projects across different business areas, showcasing adaptability and contributing meaningfully to each endeavor.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [

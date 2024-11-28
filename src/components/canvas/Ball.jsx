@@ -3,8 +3,6 @@ import { Canvas } from "@react-three/fiber";
 import {
   Decal,
   Float,
-  OrbitControls,
-  Preload,
   useTexture,
 } from "@react-three/drei";
 
@@ -14,10 +12,10 @@ const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+    <Float speed={0}>
       <ambientLight intensity={0.25} />
-      <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={2.75}>
+      <directionalLight position={[30, 30, 2.05]} />
+      <mesh castShadow receiveShadow scale={2.50}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color='#fff8eb'
@@ -45,11 +43,9 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
       </Suspense>
 
-      <Preload all />
     </Canvas>
   );
 };
