@@ -15,9 +15,9 @@ import {
   rts,
   gdsc,
   ycit,
-  carrent,
-  jobit,
-  tripguide,
+  p1,
+  p2,
+  p3,
   threejs,
   dart,
   flutter,
@@ -147,7 +147,7 @@ const experiences = [
     ],
   },
   {
-    title: "IT Intern – & Administration.",
+    title: "IT Intern & Administration.",
     company_name: "Yemen Center Information Technology in Higher Education",
     icon: ycit,
     iconBg: "#383E56",
@@ -188,67 +188,64 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Smart Bank",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Smart Bank is a C# application that simplifies banking operations, enabling efficient account management and seamless financial transactions.",
     tags: [
       {
-        name: "react",
+        name: "SmartBank",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Csharp",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "OOP",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: p1,
+    source_code_link: "https://github.com/hasanfuaad/SmartBank-opp",
   },
   {
-    name: "Job IT",
+    name: "Hospital",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Hospital System is a small C# application designed to streamline hospital operations, managing patient records, appointments, and staff efficiently.",
     tags: [
       {
-        name: "react",
+        name: "Hospital",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Csharp",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+     
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: p2,
+    source_code_link: "https://github.com/hasanfuaad/Hospital-System",
   },
   {
-    name: "Trip Guide",
+    name: "eBusiness Company",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "eBusiness is a company website built using a free template, leveraging HTML, CSS and JavaScript, to create a functional and visually appealing online presence.",
     tags: [
       {
-        name: "nextjs",
+        name: "eBusiness",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: p3,
+    source_code_link: "https://github.com/hasanfuaad/eBusiness-Company-Website",
   },
 ];
 

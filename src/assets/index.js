@@ -28,9 +28,9 @@ import ycit from "./company/ycit.png";
 import rts from "./company/rts.png";
 import gdsc from "./company/gdsc.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import p1 from "./p1.png";
+import p2 from "./p2.png";
+import p3 from "./p3.png";
 
 export {
   logo,
@@ -54,9 +54,9 @@ export {
   ycit,
   rts,
   gdsc,
-  carrent,
-  jobit,
-  tripguide,
+  p1,
+  p2,
+  p3,
   dart,
   flutter,
   python,
