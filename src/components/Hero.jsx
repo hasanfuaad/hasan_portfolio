@@ -21,10 +21,7 @@ const Hero = () => {
            IT Specialist and  Developer.
            <br className='sm:block hidden' />
            Integration Test Engineer.
-           <br className='sm:block hidden' />
-           Founder of Google DSC - SU.
-            <br className='sm:block hidden' />
-             Content Creator.
+           
 
           </p>
         </div>
