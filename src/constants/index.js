@@ -4,9 +4,10 @@ import {
   creator,
   web,
   javascript,
-  html,
+  csharp,
   cplusplus,
-  css,
+  dotnetcore,
+  playwright,
   reactjs,
   tailwind,
   nodejs,
@@ -18,6 +19,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  dart,
+  flutter,
+  python,
+  postman,
 } from "../assets";
 
 export const navLinks = [
@@ -60,13 +65,26 @@ const technologies = [
     icon: cplusplus,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "CSHARP",
+    icon:  csharp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "DOTNETCORE",
+    icon:   dotnetcore,
   },
+  {
+    name: "PLAYWRIGHT",
+    icon:   playwright,
+  },
+  {
+    name: "DART",
+    icon:   dart,
+  },
+  {
+    name: "FLUTTER",
+    icon:   flutter,
+  },
+  
   {
     name: "JavaScript",
     icon: javascript,
@@ -92,6 +110,14 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Postman",
+    icon: postman,
   },
   
 ];
